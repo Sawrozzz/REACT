@@ -1,0 +1,16 @@
+React-SPA (single page application)
+Rails - SSR(Server side rendering)
+
+disscuss :
+Hot reloading
+yarn
+npx
+bun
+npm
+
+difference between:
+default export: that we use all the time {we can import it using any name}
+named export : 
+
+cheatcode:
+-rafce
