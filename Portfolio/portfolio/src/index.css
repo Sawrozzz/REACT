@@ -42,6 +42,7 @@ nav{
   align-items: center;
   gap:3rem;
   cursor: pointer;
+  height: auto;
 }
 .link a{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,29 +65,32 @@ nav{
 }
 
 /* For Home Component */
-.allHome{
+
+/* .home{
+  height: 100vh;  
   display: flex;
-  flex-direction:row;
+  gap: 12rem;
+  flex-direction: row-reverse;
   
-}
-.home{
-  height: 100vh;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  background-size:60%;
-  background-position: calc( 136% );
   align-items: center;
   padding: 0 10%;
+} */
+
+.home{
+  margin-top: 5rem;
+  /* height: 100vh; */
+  display: flex;
+  align-items: flex-start;
+
+justify-content: center;  /* flex-direction: row; */
 }
  .home-content{
-  max-width: 600px;
+  max-width: 550px;
 } 
 .home-content h1{
   font-size: 56px;
   font-weight: 700;
   line-height: 1.3;
-
 }
 .home-content h3{
   font-size: 32px;
@@ -100,12 +104,10 @@ nav{
 
 /*for image*/
 .image{
-  display: flex;
-  flex-direction: column;
-  /* object-fit: cover; */
-
+  /* margin-right: 6rem; */
 }
-.image img{
+
+ img{
   width: 25rem;
   height: 20rem;
 }
